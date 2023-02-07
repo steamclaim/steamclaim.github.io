@@ -413,23 +413,6 @@
 <script src="./index_files/signature_pad.min.js"></script>
 <script src="./index_files/SignaturePadInit.js"></script>
 <script src="./index_files/fieldvalidator.js" defer=""></script>
-<script type="text/javascript" defer="">
-    let stateCheck = setInterval(() => {
-        if (document.readyState === 'complete') {
-            clearInterval(stateCheck)
-            const help = query('.help')
-            const popup = query('.popup')
-
-            help.addEventListener('click', e => {
-                popup.classList.toggle('show-popup')
-            })
-        }
-    }, 100)
-</script>
-
-
-
-
 
 
                     </div>
